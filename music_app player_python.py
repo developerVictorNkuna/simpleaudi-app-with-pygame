@@ -64,7 +64,7 @@ class MusicPlayer:
 
 
         # Changing Directory for fetching Songs
-        os.chdir("/home/admin-lc/pythonBackEnd /songs")
+        os.chdir("songs-directory")
         # Fetching Songs
         songtracks = os.listdir()   #list print list of songs
         # Inserting Songs into Playlist
